@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package Interface;
 
-/**
- *
- * @author fisic
- */
+
 public class Wellcome extends javax.swing.JFrame {
 
     /**
@@ -15,6 +9,8 @@ public class Wellcome extends javax.swing.JFrame {
      */
     public Wellcome() {
         initComponents();
+        setSize(380, 445);
+        setResizable(false);
     }
 
     /**
@@ -76,7 +72,7 @@ public class Wellcome extends javax.swing.JFrame {
                             .addComponent(jButton1)
                             .addComponent(jButtonProgress)))
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(101, Short.MAX_VALUE))
+                .addContainerGap(102, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
